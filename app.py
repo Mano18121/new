@@ -32,7 +32,7 @@ def predict():
     
     output = prediction[0]
     text= "The Recommended Crop is "
-    return render_template("result.html",output=text+output)
+    return render_template("FRONTPAGE.html",output=text+output)
     #return render_template('index.html',prediction_text='Employee Salary should be $ {}'.format(output))
 
 if __name__=="__main__":
