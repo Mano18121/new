@@ -14,7 +14,7 @@ model=pickle.load(open('prediction.pkl','rb'))
 
 @app.route('/')
 def home():
-    return render_template('frontpage.html')
+    return render_template('FRONTPAGE.html')
 
 @app.route('/predict',methods=['POST'])
 def predict():
